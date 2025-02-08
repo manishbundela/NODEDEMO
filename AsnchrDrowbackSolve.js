@@ -12,7 +12,6 @@ let waitingdata=new Promise((resolve,reject)=>{
 });
 
 
-
 waitingdata.then((data)=>{
     b=data;
     console.log(a+b);
