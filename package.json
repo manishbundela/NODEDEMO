@@ -1,0 +1,31 @@
+{
+  "name": "nodedemo",
+  "version": "1.0.0",
+  "description": "a nodejs tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manishbundela/nodeJS.git"
+  },
+  "keywords": [
+    "code",
+    "step",
+    "by",
+    "step"
+  ],
+  "author": "manish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manishbundela/nodeJS/issues"
+  },
+  "homepage": "https://github.com/manishbundela/nodeJS#readme",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "colors": "^1.4.0",
+    "express": "^4.21.2",
+    "simple-node-logger": "^21.8.12"
+  }
+}
