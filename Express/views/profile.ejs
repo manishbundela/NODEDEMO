@@ -10,5 +10,12 @@
     <h2>name : <%=user.name%></h2>
     <h2>email: <%=user.email%></h2>
     <h2>city : <%=user.city%></h2>
+    <h2>Skill list :</h2>
+    <UL>    
+        <%user.skill.forEach((k)=>{%>
+            <li><%=k%></li>
+        <%})%>
+        
+    </UL>
 </body>
 </html>

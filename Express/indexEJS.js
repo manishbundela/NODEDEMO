@@ -9,9 +9,16 @@ app.get("/",(req,resp)=>{
     const user={
         name:'manish',
         email:'manish@gmail.com',
-        city:'Bhopal'
+        city:'Bhopal',
+        skill:['PHP','JAVA','NODEJS','MONGODB']
     }
     resp.render('profile',{user});
+});
+
+
+//add different Pages
+app.get("/main",(req,resp)=>{
+    resp.render('main');
 });
 
 app.listen(8080);
